@@ -1,0 +1,23 @@
+parent{
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h3{
+    color: blue;
+    text-align: center;
+}
+label{
+    margin: 10px;
+}
+.child{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
