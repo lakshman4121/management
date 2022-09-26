@@ -1,23 +1,27 @@
-parent{
+.parent{
     background-color: yellowgreen;
     width: 100vw;
     height: 100vh;
-    display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    display: flex;
 }
-h3{
+    
+.h3{
     color: blue;
     text-align: center;
 }
-label{
+.label{
     margin: 10px;
 }
 .child{
     background-color: aqua;
-    width: 200px;
-    height: 200px;
+    width: 200pt;
+    height: 200pt;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px;display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
